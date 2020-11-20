@@ -1,4 +1,4 @@
-
+import { HttpClientModule } from '@angular/common/http';
 
 import { PhotosModule } from './photos/photos.module';
 
@@ -16,7 +16,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    PhotosModule
+    PhotosModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
